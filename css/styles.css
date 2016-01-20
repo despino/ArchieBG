@@ -8,11 +8,6 @@ http://www.bootstrapzero.com
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 
-article.page .format-icon:before {
-  background: url('http://timeforchi.com/wp-content/uploads/2014/08/irrid_dragon2.gif') center center no-repeat;
-  background-size: 50px 50px;
-}
-
 html,
 body {
     width: 100%;
@@ -59,6 +54,32 @@ p {
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 20px;
+}
+div.transbox {
+  width: 450px;
+  height: 250px;
+  margin-top: 200px;
+  margin-left: 50px;
+  background-color: #1a0d00;
+  border: 1px solid black;
+  background: rgba(26, 13, 0, 0.5);
+  float: left;
+  border-radius: 30px 30px 30px 30px;
+
+}
+div.transbox p {
+  margin-left: 20px;
+  padding-top: 20px;
+  color: white;
+  font-size: 50px;
+  line-height: normal;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+}
+
+div.transbox text {
+  text-align: center;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .wide-space {
@@ -442,7 +463,7 @@ textarea {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
+    color: #bba895;
     background-color: #f2f2f2;
     opacity: 0.7;
 }
